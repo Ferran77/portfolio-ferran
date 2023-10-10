@@ -23,16 +23,16 @@ export function Introduction() {
                     >
                         <h1 className="mb-5 text-4xl leading-tight md:mb-10">Si puedes pensarlo,  <br />
                             <span className="text-secondary">puedes programarlo</span></h1>
-                        <p className="max-w-sm  mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl">
+                        <p className="max-w-sm  mb-10 text-xl md:max-w-1.5xl md:mx-0 md:mb-16 md:text-xl">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero dolor, aliquam eu interdum sed, dignissim placerat nulla.
                         </p>
 
                         <div className="flex flex-col items-center gap-3 md:gap-10 md:flex-row">
                             <a href="/projects" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
-                                Ver proyectos
+                                See projects
                             </a>
-                            <a href="/contact" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
-                                Contacta conmigo
+                            <a href="/contact" className="px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary">
+                                Contact me
                             </a>
                         </div>
                     </motion.div>

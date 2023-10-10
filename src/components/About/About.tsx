@@ -19,15 +19,22 @@ export function About() {
                 animate={motionTransitionsAbout.animate}
                 transition={motionTransitionsAbout.transition}
             >
-                <h1 className="mb-6 md:text-4xl">Creando webs con <br /> <span className="text-secondary">diseños espectaculares</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate enim urna, nec fringilla mauris mattis a. In mollis vitae velit ac vehicula. </p>
+                <h1 className="mb-0 mt-14 md:text-2xl">Creating projects <span className="text-secondary">with passion</span></h1>
+                <br />
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <br/> 
+                Mauris vulputate enim urna, nec fringilla mauris mattis a. 
+                <br/>
+                In mollis vitae velit ac vehicula. 
+                </p>
 
-                <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
+                <div className="grid justify-start- grid-cols-2 gap-4 mt-1 mb-2 my-4 md:flex md:grid-cols-2 md:gap-6">
                     {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
                         <div key={id} className={`${lineRight && 'ltr'}`}>
                             <div className={`${lineRight && 'px-4 border-2 border-transparent md:border-e-gray-100'} ${lineRightMobile && 'border-e-gray-100'}`}>
-                                <p className="flex mb-2 text-2xl font-extrabold md:text-4xl text-secondary">
-                                    + <CountUp end={endCounter} start={0} duration={5} />
+                                <p className="flex mb-1 text-2xl font-extrabold md:text-3xl text-secondary">
+                                    + <CountUp end={endCounter} start={0} duration={3} />
                                 </p>
                                 <p className="text-xs uppercase max-w-[100px]">
                                     {text}
@@ -37,14 +44,14 @@ export function About() {
                     ))}
                 </div>
 
-                <div className="flex flex-col mt-10 mb-3 md:flex-row justify-evenly md:mt-28 md:mb-5">
+                <div className="flex flex-col mt-6 mb-1 md:flex-row justify-evenly md:mt-28 md:mb-5">
                     {dataAboutSkills.map((dataText, itemIndex) => {
                         const { id, text } = dataText;
 
                         return (
                             <div key={id}
                                 className={`${index === id ? 'text-secondary duration-300 transition-all border-secondary' : 'border-white'} 
-                                        cursor-pointer md:text-lg relative px-2 md:px-8 py-4 border-2 rounded-xl flex justify-between items-center my-3`}
+                                        cursor-pointer md:text-lg relative px-2 md:px-8 py-4 border-2 rounded-xl flex justify-between items-center my-1`}
                                 onClick={() => setIndex(itemIndex)}
                             >
                                 <p className="mr-4 text-md md:text-lg">{text}</p>
@@ -59,8 +66,11 @@ export function About() {
                 </div>
                 <div className="max-w-4xl p-4 mx-auto bg-secondary/20 rounded-xl">
                     {dataAboutSkills[index].skills.map((items, index) => (
-                        <div key={index} className="flex justify-center max-w-md gap-4 mx-auto">
-                            <span>{items.title} {" "} </span> - <span>{items.date}</span>
+                        <div key={index} className="flex justify-start max-w-md gap-4 mx-auto">
+                            <span>{items.title}</span>
+            
+                            <span>{items.subtitle}
+                            </span>
                         </div>
                     ))}
                 </div>

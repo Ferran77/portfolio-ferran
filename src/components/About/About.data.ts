@@ -1,32 +1,26 @@
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
-    text: "Años de experiencia",
+    endCounter: 5,
+    text: "Years of experience",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
-    text: "Clientes satisfechos",
-    lineRight: true,
-    lineRightMobile: false,
-  },
-  {
-    id: 2,
-    endCounter: 220,
-    text: "Proyectos finalizados",
+    endCounter: 20,
+    text: "Completed projects",
     lineRight: true,
     lineRightMobile: true,
   },
   {
-    id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
-    lineRight: false,
-    lineRightMobile: false,
+    id: 2,
+    endCounter: 25,
+    text: "Successful courses",
+    lineRight: true,
+    lineRightMobile: true,
   },
+  
 ];
 
 export const dataAboutSkills = [
@@ -35,54 +29,36 @@ export const dataAboutSkills = [
     text: "Skills",
     skills: [
       {
-        title: "Frontend Developer",
-        date: "2017",
+        title: "Frontend Developer JR:",
+        subtitle: "HTML 5, CSS 3 & JavaScript",
       },
       {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Frameworks and libraries:",
+        subtitle: "ReactJS, TypeScript, NextJS 13, Tailwind, Node JS, Redux",
       },
     ],
   },
   {
     id: 1,
-    text: "Experiencia",
+    text: "Experience",
     skills: [
       {
-        title: "Netflix Inc.",
-        date: "2015",
+        title: "Active collaborator in:",
+        subtitle: "Web Wizard",
       },
       {
-        title: "Amazon",
-        date: "2020",
+        title: "Freelance developer:",
+        subtitle: "Starting",
       },
     ],
   },
   {
     id: 2,
-    text: "Estudios",
+    text: "Training",
     skills: [
       {
-        title: "Grado Universitario en Florida",
-        date: "2012-2016",
-      },
-      {
-        title: "Máster desarrollo Frontend",
-        date: "2016-2018",
-      },
-    ],
-  },
-  {
-    id: 3,
-    text: "Masters",
-    skills: [
-      {
-        title: "Frontend Developer",
-        date: "2017",
-      },
-      {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Courses taken:",
+        subtitle: "Full Stack Developer con JavaScript in Platzi.com, Curso de React in Jonmircha.com, Several more courses in JSMastery, FrontendMasters, DevTalles, freeCodeCamp & Hola Mundo",
       },
     ],
   },
