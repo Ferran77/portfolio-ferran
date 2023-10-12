@@ -21,9 +21,4 @@ export const dataNavbar = [
     path: "/works",
     icon: <RiBriefcase2Line size="30" />,
   },
-  {
-    name: "testimonials",
-    path: "/testimonials",
-    icon: <RiChatPollLine size="30" />,
-  },
 ];

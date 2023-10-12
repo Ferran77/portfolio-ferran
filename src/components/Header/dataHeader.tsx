@@ -1,28 +1,17 @@
-import { RiInstagramLine, RiYoutubeLine, RiTiktokLine, RiPinterestLine, RiTwitterXFill, RiBehanceLine } from "react-icons/ri";
+import { RiGithubFill, RiFacebookCircleFill } from "react-icons/ri";
+import { SiUpwork } from "react-icons/si"
 
 export const socialNetworks = [
   {
-    logo: <RiInstagramLine size="40" />,
-    src: "https://instagram.com/tarredev",
+    logo: <RiGithubFill size="40" />,
+    src: "https://github.com/Ferran77",
   },
   {
-    logo: <RiYoutubeLine size="40" />,
-    src: "https://youtube.com/@tarredev",
+    logo: <RiFacebookCircleFill size="40" />,
+    src: "https://www.facebook.com/eduardo.a.moreno.5?locale=es_LA",
   },
   {
-    logo: <RiTiktokLine size="40" />,
-    src: "https://tiktok.com/@tarredev",
-  },
-  {
-    logo: <RiPinterestLine size="40" />,
-    src: "https://pinterest.com/tarredev",
-  },
-  {
-    logo: <RiTwitterXFill size="40" />,
-    src: "https://twitter.com/tarredev",
-  },
-  {
-    logo: <RiBehanceLine size="40" />,
-    src: "#!",
+    logo: <SiUpwork size="40" />,
+    src: "https://www.upwork.com/freelancers/~015515df31c1d94749?viewMode=1",
   },
 ];

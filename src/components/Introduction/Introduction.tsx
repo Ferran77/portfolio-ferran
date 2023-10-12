@@ -21,10 +21,10 @@ export function Introduction() {
                         animate="show"
                         exit="hidden"
                     >
-                        <h1 className="mb-5 text-4xl leading-tight md:mb-10">Si puedes pensarlo,  <br />
-                            <span className="text-secondary">puedes programarlo</span></h1>
+                        <h1 className="mb-5 text-4xl leading-tight md:mb-10">It's never too late to get<br />
+                            <span className="text-secondary">passionate about web development</span></h1>
                         <p className="max-w-sm  mb-10 text-xl md:max-w-1.5xl md:mx-0 md:mb-16 md:text-xl">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero dolor, aliquam eu interdum sed, dignissim placerat nulla.
+                        Musician by origin, historian for pleasure and passionate about technology and web development. <br /> I put myself at your service as a frontend developer
                         </p>
 
                         <div className="flex flex-col items-center gap-3 md:gap-10 md:flex-row">
